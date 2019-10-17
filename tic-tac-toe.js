@@ -1,7 +1,7 @@
 /*let board = document.body.getElementsByClassName("board");
 board.querySelectorAll("div").className = "square";*/
 let layout = document.querySelector("link");
-
+let square_array = [];
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 
-    let square_array = [];
+    
 });
 /* layout.addEventListener("DOMContentLoaded", function(){
     console.log("jsnjdn");
